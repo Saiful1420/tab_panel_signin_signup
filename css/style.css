@@ -1,0 +1,202 @@
+/* Tabs 1 signin*/
+section {
+  padding: 60px 0;
+}
+section .section-title {
+  text-align: center;
+  color: #007b5e;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+#tabs{
+background: #ffffff;
+  color: black;
+}
+#tabs h6.section-title{
+  color: #609513;
+}
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #f3f3f3;
+  background-color: transparent;
+  border-color: transparent transparent #f3f3f3;
+  border-bottom: 4px solid !important;
+  font-size: 20px;
+  font-weight: bold;
+}
+#tabs .nav-tabs .nav-link {
+  border: 1px solid transparent;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+  color: gray;
+  font-size: 20px;
+}
+#tabs .nav-tabs .nav-link.active {
+  color: #609513;
+}
+/* left-side-col-md-4-part */
+.left-side{
+background-color: #609513;
+border-top-left-radius: 13px;
+border-bottom-left-radius: 13px;
+height: 650px;
+}
+@media only screen and (max-width: 600px) {
+  .left-side {
+    background-color: #609513;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+    height: auto;
+    margin-top: -60px;
+    margin-bottom: 15px;
+    padding: 15px;
+  }
+}
+hr{
+  border-top: 1px solid white;
+}
+.left-heading-img{
+  margin-top: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+@media only screen and (max-width: 500px) {
+  .left-heading-img {
+  margin-top: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 36%;
+  }
+}
+.left-heading-h5{
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 17px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 500px) {
+  .left-heading-h5 {
+margin-top: 14px;
+  }
+}
+.left-heading-h4{
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 21px;
+  font-weight: bold;
+}
+/* Right-tab-col-md-8-part */
+.right-tab-h5{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 22px;
+}
+@media only screen and (max-width: 500px) {
+  .right-tab-h5 {
+    font-size: 19px;
+    margin-bottom: 40px;
+  }
+}
+.saiful-icon-css{
+  background-color: #ffffff;
+  font-size: 12px;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
+.saiful-input-css{
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  font-size: 12px;
+}
+.saiful-select-css{
+  color: grey;
+  font-size: 16px; 
+  margin-bottom: -30px; 
+  margin-inline-start: -3px;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
+.checkbox{
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+.checkbox .saiful-remember{
+  margin-left: -100px;
+}
+@media only screen and (max-width: 500px) {
+  .checkbox .saiful-remember{
+    margin-left: -5px;
+  }
+}
+.checkbox .Forgot{
+  margin-left: -30px;
+}
+@media only screen and (max-width: 500px) {
+  .checkbox .Forgot{
+    margin-left: -5px;
+  }
+}
+.sign-button{
+width: 90%;
+color: #ffffff;
+font-weight: bold;
+background-color: #609513;
+border-radius: none;
+margin-top: 20px;
+margin-bottom: 10px;
+}
+.sign-button:hover{
+  color: white;
+}
+.signup-bottom-link{
+  color: purple;
+  font-weight: bold;
+}
+.Forgot p {
+color: red;
+}
+.checkbox .Forgot a{
+  text-decoration: none;
+  text-align: right;
+}
+.fa-eye-slash{
+  margin-top: 18px;;
+}
+.form-control:focus {
+  border-color: #609513;
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.075), 0 0 8px rgba(255, 255, 255, 0.6);
+}
+/* Tab2-Signup  */
+.form-padding{
+  padding: 7px;
+}
+.signup-tab-h5{
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+@media only screen and (max-width: 500px) {
+  .signup-tab-h5{
+    font-size: 16px;
+  }
+}
+.signup-button{
+  width: 95%;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #609513;
+  border-radius: none;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  }
+  .signup-button:hover{
+   color: #ffffff;
+    }
